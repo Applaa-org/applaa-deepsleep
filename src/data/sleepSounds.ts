@@ -18,7 +18,7 @@ export const sleepSounds: SleepSound[] = [
     duration: "∞",
     icon: "🌊",
     color: "from-blue-500 to-cyan-400",
-    audioUrl: "https://www.soundjay.com/nature/sounds/ocean-wave-1.mp3"
+    audioUrl: "https://assets.mixkit.co/active_storage/sfx/2266/2266-preview.mp3"
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ export const sleepSounds: SleepSound[] = [
     duration: "∞",
     icon: "🌧️",
     color: "from-slate-500 to-blue-400",
-    audioUrl: "https://www.soundjay.com/nature/sounds/rain-01.mp3"
+    audioUrl: "https://assets.mixkit.co/active_storage/sfx/2491/2491-preview.mp3"
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ export const sleepSounds: SleepSound[] = [
     duration: "∞",
     icon: "🌲",
     color: "from-green-600 to-emerald-500",
-    audioUrl: "https://www.soundjay.com/nature/sounds/forest-ambience.mp3"
+    audioUrl: "https://assets.mixkit.co/active_storage/sfx/2500/2500-preview.mp3"
   },
   {
     id: 4,
@@ -48,7 +48,7 @@ export const sleepSounds: SleepSound[] = [
     duration: "∞",
     icon: "⛈️",
     color: "from-purple-600 to-indigo-500",
-    audioUrl: "https://www.soundjay.com/nature/sounds/thunder-1.mp3"
+    audioUrl: "https://assets.mixkit.co/active_storage/sfx/1150/1150-preview.mp3"
   },
   {
     id: 5,
@@ -58,7 +58,7 @@ export const sleepSounds: SleepSound[] = [
     duration: "∞",
     icon: "📻",
     color: "from-gray-500 to-slate-400",
-    audioUrl: "https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3"
+    audioUrl: "https://assets.mixkit.co/active_storage/sfx/2532/2532-preview.mp3"
   },
   {
     id: 6,
@@ -68,7 +68,7 @@ export const sleepSounds: SleepSound[] = [
     duration: "∞",
     icon: "🎐",
     color: "from-amber-400 to-orange-300",
-    audioUrl: "https://www.soundjay.com/misc/sounds/magic-chime-02.mp3"
+    audioUrl: "https://assets.mixkit.co/active_storage/sfx/2533/2533-preview.mp3"
   },
   {
     id: 7,
@@ -78,7 +78,7 @@ export const sleepSounds: SleepSound[] = [
     duration: "∞",
     icon: "🎋",
     color: "from-lime-500 to-green-400",
-    audioUrl: "https://www.soundjay.com/nature/sounds/wind-1.mp3"
+    audioUrl: "https://assets.mixkit.co/active_storage/sfx/2531/2531-preview.mp3"
   },
   {
     id: 8,
@@ -88,7 +88,7 @@ export const sleepSounds: SleepSound[] = [
     duration: "∞",
     icon: "🔥",
     color: "from-orange-500 to-red-400",
-    audioUrl: "https://www.soundjay.com/nature/sounds/fire-crackling-1.mp3"
+    audioUrl: "https://assets.mixkit.co/active_storage/sfx/2534/2534-preview.mp3"
   }
 ];
 
