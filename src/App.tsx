@@ -4,13 +4,15 @@ import {
   RouterProvider, 
   createRootRoute, 
   createRoute as createTanStackRoute, 
-  Outlet 
+  Outlet
 } from '@tanstack/react-router'
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import Index from "./pages/Index";
+import About from "./pages/About";
+import Tips from "./pages/Tips";
 
 const queryClient = new QueryClient();
 
@@ -34,8 +36,22 @@ const indexRoute = createTanStackRoute({
   component: Index,
 })
 
+// Create about route
+const aboutRoute = createTanStackRoute({
+  getParentRoute: () => rootRoute,
+  path: '/about',
+  component: About,
+})
+
+// Create tips route
+const tipsRoute = createTanStackRoute({
+  getParentRoute: () => rootRoute,
+  path: '/tips',
+  component: Tips,
+})
+
 // Create route tree
-const routeTree = rootRoute.addChildren([indexRoute])
+const routeTree = rootRoute.addChildren([indexRoute, aboutRoute, tipsRoute])
 
 // Create router with proper TypeScript configuration
 const router = createRouter({ 
@@ -54,4 +70,3 @@ declare module '@tanstack/react-router' {
 const App = () => <RouterProvider router={router} />
 
 export default App;
-
