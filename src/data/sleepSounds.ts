@@ -18,7 +18,7 @@ export const sleepSounds: SleepSound[] = [
     duration: "∞",
     icon: "🌊",
     color: "from-blue-500 to-cyan-400",
-    audioUrl: "https://cdn.pixabay.com/audio/2022/03/24/audio_07b5775530.mp3"
+    audioUrl: "https://assets.mixkit.co/active_storage/sfx/2266/2266-preview.mp3"
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ export const sleepSounds: SleepSound[] = [
     duration: "∞",
     icon: "🌧️",
     color: "from-slate-500 to-blue-400",
-    audioUrl: "https://cdn.pixabay.com/audio/2022/01/18/audio_d0a13f69d2.mp3"
+    audioUrl: "https://assets.mixkit.co/active_storage/sfx/2491/2491-preview.mp3"
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ export const sleepSounds: SleepSound[] = [
     duration: "∞",
     icon: "🌲",
     color: "from-green-600 to-emerald-500",
-    audioUrl: "https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3"
+    audioUrl: "https://assets.mixkit.co/active_storage/sfx/2500/2500-preview.mp3"
   },
   {
     id: 4,
@@ -48,7 +48,7 @@ export const sleepSounds: SleepSound[] = [
     duration: "∞",
     icon: "⛈️",
     color: "from-purple-600 to-indigo-500",
-    audioUrl: "https://cdn.pixabay.com/audio/2022/03/10/audio_c8c8a73467.mp3"
+    audioUrl: "https://assets.mixkit.co/active_storage/sfx/1150/1150-preview.mp3"
   },
   {
     id: 5,
@@ -58,7 +58,7 @@ export const sleepSounds: SleepSound[] = [
     duration: "∞",
     icon: "📻",
     color: "from-gray-500 to-slate-400",
-    audioUrl: "https://cdn.pixabay.com/audio/2022/03/15/audio_24215f5e8c.mp3"
+    audioUrl: "https://assets.mixkit.co/active_storage/sfx/2532/2532-preview.mp3"
   },
   {
     id: 6,
@@ -68,7 +68,7 @@ export const sleepSounds: SleepSound[] = [
     duration: "∞",
     icon: "🎐",
     color: "from-amber-400 to-orange-300",
-    audioUrl: "https://cdn.pixabay.com/audio/2022/03/09/audio_5b3279659c.mp3"
+    audioUrl: "https://assets.mixkit.co/active_storage/sfx/2533/2533-preview.mp3"
   },
   {
     id: 7,
@@ -78,7 +78,7 @@ export const sleepSounds: SleepSound[] = [
     duration: "∞",
     icon: "🎋",
     color: "from-lime-500 to-green-400",
-    audioUrl: "https://cdn.pixabay.com/audio/2022/01/26/audio_6b52865766.mp3"
+    audioUrl: "https://assets.mixkit.co/active_storage/sfx/2531/2531-preview.mp3"
   },
   {
     id: 8,
@@ -88,7 +88,7 @@ export const sleepSounds: SleepSound[] = [
     duration: "∞",
     icon: "🔥",
     color: "from-orange-500 to-red-400",
-    audioUrl: "https://cdn.pixabay.com/audio/2022/01/18/audio_d0a13f69d2.mp3"
+    audioUrl: "https://assets.mixkit.co/active_storage/sfx/2534/2534-preview.mp3"
   }
 ];
 
